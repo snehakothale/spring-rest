@@ -13,6 +13,7 @@ import org.openqa.selenium.support.FindBy;
 
 
 public class CarWashServicesPage extends HomePage{
+	//webelements of CarWashServicesPage for git demo
 	@FindBy(xpath = "//*[@id='distdrop_rat']/span")
 	WebElement rating_btn;
 
